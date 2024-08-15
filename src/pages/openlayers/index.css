@@ -1,0 +1,29 @@
+.map-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.map-utils {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+#openLayers {
+    position: relative;
+    width: calc(100% - 150px);
+    height: 100%
+}
+
+#mouse-position {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 2px 8px;
+}
